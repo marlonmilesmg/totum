@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+#navigation,.navbar .navbar-default{
+    background-image: url("/src/images/accounting-alone-analysis-938963.jpg");
+  }
+
+  
