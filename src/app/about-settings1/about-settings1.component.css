@@ -33,7 +33,7 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: orange;
+  background: #FF7700;
   width: 55%!important;
   height: 4em!important;
   border: 0;
@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: orange;
+  background: #FF7700;
 }
 .form .message {
   margin: 15px 0 0;
@@ -132,7 +132,7 @@ nav {
     border-radius: 35%;
 	margin: 0 auto;
 	max-width: 65%;
-	background: orange;
+	background: #FF7700;
     box-shadow:0 3px 15px rgba(0,0,0,.15);
     border-top-left-radius: 110px;
     border-top-right-radius: 110px;
@@ -169,7 +169,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a:focus {
-  background: orange;
+  background: #FF7700;
   border-top-left-radius: 110px;
   border-top-right-radius: 110px;
   border-bottom-left-radius: 110px;
