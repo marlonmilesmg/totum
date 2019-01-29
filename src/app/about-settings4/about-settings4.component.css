@@ -114,7 +114,8 @@
   text-transform: uppercase;
   outline: 0;
   background: #FF7700;
-  width: 45%;
+  width: 30%;
+  height: 3em;
   border: 0;
   padding: 15px;
   color: #FFFFFF;
@@ -124,7 +125,7 @@
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: whitesmoke;
+  background: #FF7700;
 }
 .form .message {
   margin: 15px 0 0;
