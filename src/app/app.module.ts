@@ -21,6 +21,9 @@ import { CompanyDashboardComponent } from './company-dashboard/company-dashboard
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PackagesComponent } from './packages/packages.component';
+import { CarInsuranceTile9Component } from './car-insurance-tile9/car-insurance-tile9.component';
+import { CarInsuranceTile1Component } from './car-insurance-tile1/car-insurance-tile1.component';
+import { CarInsuranceCard1Component } from './car-insurance-card1/car-insurance-card1.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +45,10 @@ import { PackagesComponent } from './packages/packages.component';
     CompanyDashboardComponent,
     HomeComponent,
     LoginComponent,
-    PackagesComponent
+    PackagesComponent,
+    CarInsuranceTile9Component,
+    CarInsuranceTile1Component,
+    CarInsuranceCard1Component
   ],
   imports: [
     BrowserModule,

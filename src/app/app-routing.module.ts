@@ -16,6 +16,9 @@ import { AboutSettings7Component } from './about-settings7/about-settings7.compo
 import { AboutSettings8Component } from './about-settings8/about-settings8.component';
 import { AboutSettings9Component } from './about-settings9/about-settings9.component';
 import { CompanyDashboardComponent } from './company-dashboard/company-dashboard.component';
+import { CarInsuranceTile9Component} from './car-insurance-tile9/car-insurance-tile9.component';
+import { CarInsuranceTile1Component } from './car-insurance-tile1/car-insurance-tile1.component';
+import { CarInsuranceCard1Component } from './car-insurance-card1/car-insurance-card1.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -33,8 +36,12 @@ const routes: Routes = [
   { path: 'about-settings-7', component: AboutSettings7Component },
   { path: 'about-settings-8', component: AboutSettings8Component },
   { path: 'about-settings-9', component: AboutSettings9Component },
-  {path: 'company-dashboard', component: CompanyDashboardComponent}
+  { path: 'company-dashboard', component: CompanyDashboardComponent },
+  { path: 'car-insurance-tile9', component: CarInsuranceTile9Component },
+  { path: 'car-insurance-tile1', component: CarInsuranceTile1Component },
+  { path: 'car-insurance-card1', component: CarInsuranceCard1Component },
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -102,3 +102,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
+.package-button{
+  border-radius: 25px;
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+outline: 0;
+background: orange;
+width: 55%!important;
+height: 4em!important;
+border: 0;
+padding: 15px;
+color: #FFFFFF;
+font-size: 14px;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+cursor: pointer;
+}
+.center{
+  text-align: center;
+}
