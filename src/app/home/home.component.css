@@ -39,7 +39,7 @@
   height: 63px;
   border: 0;
   padding: 15px;
-  color: orange;
+  color: #FF7700;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   -webkit-transition: all 0.3 ease;
@@ -47,11 +47,11 @@
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: orange;
+  background: #FF7700;
 }
 .form .message {
   margin: 15px 0 0;
-  color: orange;
+  color: #FF7700;
   font-size: 12px;
 }
 .form .message a {

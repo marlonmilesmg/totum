@@ -5,12 +5,92 @@
   padding: 8% 0 0;
   margin: auto;
 }
+
+.center{
+  align-items: center;
+}
+
+.insurance-btn{
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  width: 55%!important;
+  height: 4em!important;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  align-items: center;
+}
+
+.package{
+    border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: white;
+  width: 55%!important;
+  height: 4em!important;
+  border: 0;
+  color: #FF7700;
+  font-size: 10px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.account{
+  font-size: 30px;
+}
+.benefits{
+  font-size: 15px;
+}
+.aggregation{
+  font-size: 13px;
+}
+
+.search{
+  width: 235px;
+  height: 35px;
+  border-top:thin solid  #e5e5e5;
+  border-right:thin solid #e5e5e5;
+  border-bottom:0;
+  border-left:thin solid  #e5e5e5;
+  box-shadow:0px 1px 1px 1px #e5e5e5;
+  float:left;
+  margin:.8em 0 0 .5em; 
+  outline:0;
+  padding:.4em 0 .4em .6em;
+  font-size: 16px;
+}
+
+.search-button{
+  border-top:thin solid  #e5e5e5;
+  border-right:thin solid #e5e5e5;
+  border-bottom:0;
+  border-left:thin solid  #e5e5e5;
+  box-shadow:0px 1px 1px 1px #e5e5e5;
+  margin:.8em 0 0 .5em;
+  outline:0;
+  font-size: 20px;
+}
+
+.box{
+  text-align: center;
+  color: #FF7700;
+  font-size: 32px;
+}
+
 .form {
     border-radius: 30px;
   position: relative;
   z-index: 1;
   background: #FFFFFF;
-  max-width: 520px;
+  max-width: 210px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
@@ -33,9 +113,8 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: orange;
-  width: 30%;
-  height: 3em;
+  background: #FF7700;
+  width: 45%;
   border: 0;
   padding: 15px;
   color: #FFFFFF;
@@ -45,7 +124,7 @@
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: orange;
+  background: whitesmoke;
 }
 .form .message {
   margin: 15px 0 0;

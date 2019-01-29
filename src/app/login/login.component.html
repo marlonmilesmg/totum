@@ -1,45 +1,57 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <div class="row">
   <div class="col-md-3">
-    <p>TOTUM</p>
-    <p>INSUARANCE</p>
+    <img src="../../images/logos/TOTUM_2.png" alt="logo" width="200" height="200">
   </div>
+  <br />
   <div class="offset-md-6 col-md-3">
-    <i><input placeholder="What are you looking for ?"></i>
+    <input class="search form-control" placeholder="What are you looking for ?">
+    <button class="search-button btn btn-secondary" type="button">
+      <i class="fa fa-search"></i>
+    </button>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-6">
-    <h2>Get quotes, Select services, Pay Generate Claims</h2>
+  <div class="col-md-3 offset-1 box">
+    <a>Get quotes, <br /> Select services, <br /> Pay <br /> Generate Claims</a>
   </div>
   <div class="col-md-6">
-    <h2>Don't have an account ?</h2>
-    <p> Sign up to enjoy the benefits of our system </p>
-    <button class="form-control">SIGN UP</button>
+    <div class="col-md-4 fa-pull-right">
+      <a class="account">Don't have an account?</a><br /><br />
+      <a class="benefits center"> Sign up to enjoy the benefits of our system.</a><br /><br /><br />
+      <button class="package">SIGN UP</button>
+    </div>
     <div class="form">
       <form class="login-form">
-
-        <input type="text" placeholder="username" />
-
-        <input type="password" placeholder="password" class="form-control" name="password" required minlength="8">
+        <a class="package">Login</a><br />
+        <input type="text" />
+        <h5>Username</h5><br />
+        <input type="password" class="form-control" name="password" required minlength="8">
+        <h5>Password</h5><br />
         <button>login</button>
         <p class="message">
-          <a class="nav-link" [routerLink]="['/registration']" routerLinkActive="active">forgot password ?</a>
+          <a class="nav-link" [routerLink]="['/registration']" routerLinkActive="active">Forgot password ?</a>
         </p>
       </form>
     </div>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-6">
-    <p>
-      TOTUM Insuarance is an insuarance aggregation service that brings all your insuarance needs to your finger tips.
-      Any type of insuarance all in one place
-    </p>
-    <button>
-      FIND YOUR CUSTOM INSUARANCE
+  <div class="col-md-3">
+    <p class="aggregation col-md-12">
+      TOTUM Insurance is an insurance aggregation service that brings all your insurance needs to your finger tips.<br/>
+      Any type of insurance all in one place
+    </p><br/>
+    <button class="insurance-btn col-md-12">
+      FIND YOUR CUSTOM INSURANCE
     </button>
   </div>
-  <div class="col-md-6">
-    <button class="form-control"><i class="fa-fa-arrow"></i> Discover Here</button>
+  <div class="col-md-3">
+    <div class="col-md-3">
+      <img src="../../images/logos/TOTUM_2.png" alt="logo" width="200" height="200">
+    </div>
+    <button class="form-control"><i class="fa-fa-arrow"></i>DISCOVER HERE</button>
   </div>
 </div>
